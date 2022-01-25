@@ -1,8 +1,9 @@
 .form {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 700;
+    margin-left: 10px;
   }
 
   .form-main {
@@ -10,14 +11,14 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   .form-img-prev {
     max-width: 95%;
     height: 300px;
     border: 1px solid lightgray;
     margin-top: 20px;
   }
-  
+
   .form-input-box {
     width: 90%;
     height: 50px;
@@ -26,7 +27,7 @@
     justify-content: space-around;
     margin: 20px auto;
   }
-  
+
   .form-text-box {
     width: 90%;
     margin: 3px auto 10px;

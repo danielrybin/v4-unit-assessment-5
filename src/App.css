@@ -84,3 +84,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 400px){
+  .app-form {
+    padding-top: 0px;
+  }
+}

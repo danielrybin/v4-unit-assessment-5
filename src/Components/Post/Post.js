@@ -3,6 +3,7 @@ import axios from 'axios';
 import noImage from './../../assets/no_image.jpg';
 import './Post.css';
 
+
 class Post extends Component {
   constructor(props) {
     super(props);
@@ -18,7 +19,7 @@ class Post extends Component {
   }
 
   componentDidMount() {
-    axios.get(`/api/post/1`)
+    axios.get(`/api/post/${this.props.match.params.id}`)
       .then(res => {
         this.setState({ ...res.data, loading: false })
       })
